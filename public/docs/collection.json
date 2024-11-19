@@ -1,0 +1,238 @@
+{
+    "variable": [
+        {
+            "id": "baseUrl",
+            "key": "baseUrl",
+            "type": "string",
+            "name": "string",
+            "value": "http:\/\/localhost"
+        }
+    ],
+    "info": {
+        "name": "Laravel",
+        "_postman_id": "a3ede028-e645-45d1-960a-8f3241b42812",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "Endpoints",
+            "description": "",
+            "item": [
+                {
+                    "name": "GET api\/api\/tasks",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/api\/tasks",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/api\/tasks"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/json"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "*"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "{\"data\":[{\"id\":1,\"title\":\"Test Title\",\"description\":\"Lorem Ipsum Dolor sit amet.\",\"completed\":true,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T13:43:07.000000Z\",\"updated_at\":\"2024-11-19T13:43:07.000000Z\"},{\"id\":2,\"title\":\"Test Title\",\"description\":\"Lorem Ipsum Dolor sit amet.\",\"completed\":true,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T13:43:29.000000Z\",\"updated_at\":\"2024-11-19T13:43:29.000000Z\"},{\"id\":3,\"title\":\"Test Title\",\"description\":\"Lorem Ipsum Dolor sit amet.\",\"completed\":true,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T13:43:51.000000Z\",\"updated_at\":\"2024-11-19T13:43:51.000000Z\"},{\"id\":4,\"title\":\"Mr.\",\"description\":\"Vero aut natus deleniti est nisi quos. Eos expedita praesentium in iste. Earum omnis omnis magnam cupiditate ea.\",\"completed\":true,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:24:28.000000Z\",\"updated_at\":\"2024-11-19T14:24:28.000000Z\"},{\"id\":5,\"title\":\"Dr.\",\"description\":\"Corrupti non neque natus neque ipsum. Earum rem veniam laborum tenetur. Et cum in dolorem animi sequi.\",\"completed\":true,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:25:46.000000Z\",\"updated_at\":\"2024-11-19T14:25:46.000000Z\"},{\"id\":6,\"title\":\"Prof.\",\"description\":\"Voluptatum occaecati hic illo et qui quis. Dolores aspernatur laborum et aut aut. Saepe deleniti atque aut. Deleniti repudiandae iure esse pariatur eligendi ipsa ipsam blanditiis.\",\"completed\":true,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:26:34.000000Z\",\"updated_at\":\"2024-11-19T14:26:34.000000Z\"},{\"id\":8,\"title\":\"Mr.\",\"description\":\"Exercitationem nihil quisquam consectetur suscipit. Dolorem quae animi voluptas et et modi. Libero dolor dolor velit molestiae ad.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:32:15.000000Z\",\"updated_at\":\"2024-11-19T14:32:15.000000Z\"},{\"id\":9,\"title\":\"Mrs.\",\"description\":\"Est enim aperiam sed et repellendus itaque officia. Est distinctio enim officia iusto natus aut quia. Odit quos ut corporis rem ea eaque.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:32:52.000000Z\",\"updated_at\":\"2024-11-19T14:32:52.000000Z\"},{\"id\":10,\"title\":\"Miss\",\"description\":\"Animi quaerat distinctio dolores dignissimos quod rem harum. Nobis rerum sunt impedit et voluptas voluptas et repellendus. Quo omnis dolores vel fugit repellendus.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:33:04.000000Z\",\"updated_at\":\"2024-11-19T14:33:04.000000Z\"},{\"id\":11,\"title\":\"Prof.\",\"description\":\"Qui eum odit doloribus sed alias sed totam non. Iste molestiae autem commodi. Repellat sint qui commodi sunt. Et veniam dignissimos dicta natus laudantium nulla alias.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:39:35.000000Z\",\"updated_at\":\"2024-11-19T14:39:35.000000Z\"},{\"id\":12,\"title\":\"Mr.\",\"description\":\"Natus voluptate veniam quia sed ullam hic officia. Nostrum ut aspernatur officia quam. Ut eius ab fugiat porro aspernatur et reiciendis. Nobis necessitatibus magni hic deleniti.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:39:35.000000Z\",\"updated_at\":\"2024-11-19T14:39:35.000000Z\"},{\"id\":13,\"title\":\"Dr.\",\"description\":\"Excepturi laboriosam ipsum voluptatum. Quis quia est et id. Dolorum quos dignissimos modi sed. Quae repellendus veniam voluptatibus enim aut exercitationem voluptate molestias.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:39:35.000000Z\",\"updated_at\":\"2024-11-19T14:39:35.000000Z\"},{\"id\":14,\"title\":\"Prof.\",\"description\":\"Ducimus consequatur occaecati dolor accusamus. Est laborum ut sit quis recusandae. Vel perspiciatis et dolor tempora eius.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:39:35.000000Z\",\"updated_at\":\"2024-11-19T14:39:35.000000Z\"},{\"id\":15,\"title\":\"Miss\",\"description\":\"Nostrum tempora corporis sapiente quo. Et sit eum suscipit voluptas blanditiis voluptas molestiae. Mollitia dolorem voluptas nesciunt sit quia incidunt.\",\"completed\":false,\"created_by\":\"Deanna Boyle\",\"created_at\":\"2024-11-19T14:39:35.000000Z\",\"updated_at\":\"2024-11-19T14:39:35.000000Z\"}]}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "POST api\/api\/tasks",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/api\/tasks",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/api\/tasks"
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"title\":\"nvdfonlgutqwqwxugfrxruagn\",\"description\":\"tempora\",\"completed\":false}"
+                        },
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "GET api\/api\/tasks\/{id}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/api\/tasks\/:id",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/api\/tasks\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "1",
+                                    "description": "The ID of the task."
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/json"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "*"
+                                }
+                            ],
+                            "code": 200,
+                            "body": "{\"data\":{\"id\":1,\"title\":\"Test Title\",\"description\":\"Lorem Ipsum Dolor sit amet.\",\"completed\":true,\"created_at\":\"2024-11-19T13:43:07.000000Z\",\"updated_at\":\"2024-11-19T13:43:07.000000Z\"}}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "PUT api\/api\/tasks\/{id}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/api\/tasks\/:id",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/api\/tasks\/:id",
+                            "variable": [
+                                {
+                                    "id": "id",
+                                    "key": "id",
+                                    "value": "1",
+                                    "description": "The ID of the task."
+                                }
+                            ]
+                        },
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"title\":\"rkwuelejnifg\"}"
+                        },
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "DELETE api\/api\/tasks\/{task_id}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/api\/tasks\/:task_id",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/api\/tasks\/:task_id",
+                            "variable": [
+                                {
+                                    "id": "task_id",
+                                    "key": "task_id",
+                                    "value": "1",
+                                    "description": "The ID of the task."
+                                }
+                            ]
+                        },
+                        "method": "DELETE",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ],
+    "auth": {
+        "type": "noauth"
+    }
+}
